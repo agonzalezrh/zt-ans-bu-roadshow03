@@ -214,6 +214,9 @@ virtualmachines:
     memory: "4G"
     cores: 16
     image_size: "30Gi"
+    terminals:
+      - name: wetty_podman_host_top
+        command: /usr/bin/top
     tags:
       - key: "AnsibleGroup"
         value: "isolated"
