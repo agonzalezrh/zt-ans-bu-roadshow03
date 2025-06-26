@@ -22,6 +22,10 @@ tabs:
     url: /wetty
   - name: ">_ S.E.A.N"
     url: /wetty_sean
+  - name: ">_ kafka"
+    url: /terminal
+    secondary_name: ">_ node02"
+    secondary_url: /wetty_node02
   - name: Webapp
     url: https://podman-host-${guid}.${domain}/index.html
     external: false
