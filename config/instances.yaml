@@ -7,6 +7,9 @@ containers:
       - name: gitea
         containerPort: 3000
         protocol: TCP
+    terminals:
+      - name: terminal-gitea
+        command: oc rsh gitea
     environment:
       GITEA__DEFAULT__RUN_MODE: dev
       GITEA__database__DB_TYPE: sqlite3
